@@ -192,11 +192,11 @@ document.addEventListener('DOMContentLoaded', function() {
             contact: "Kontak",
             heroTitle1: "Membangun Solusi",
             heroTitle2: "Digital Masa Depan",
-            heroDesc: "Saya <strong>M. Syalman Al Farizi (Neverlabs)</strong>, pelajar SMK kelas 12 yang bersemangat dalam teknologi, pengembangan web, dan jaringan komputer. Siap berkontribusi di dunia teknologi modern.",
+            heroDesc: "Saya <strong>M. Syalman Al Farizi (Neverlabs)</strong>, lulusan mahasiswa SMK yang bersemangat dalam teknologi, pengembangan web, dan jaringan komputer. Siap berkontribusi di dunia teknologi modern.",
             viewProjects: "Lihat Proyek",
             contactMe: "Hubungi Saya",
-            aboutTitle: "Profil <span class='highlight'>Pelajar</span> Teknologi",
-            aboutSubtitle: "Pelajar SMK yang passionate di bidang teknologi dengan pengalaman praktis di berbagai bidang.",
+            aboutTitle: "Profil <span class='highlight'>Neverlabs</span>",
+            aboutSubtitle: "Lulusan mahasiswa SMK yang passionate di bidang teknologi dengan pengalaman praktis di berbagai bidang.",
             skillsTitle: "Kemampuan <span class='highlight'>Teknis</span>",
             skillsSubtitle: "Keterampilan yang saya kuasai melalui pembelajaran di sekolah, kursus online, dan pengalaman praktik.",
             projectsTitle: "Karya <span class='highlight'>Terpilih</span>",
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
             heroDesc: "I'm <strong>M. Syalman Al Farizi (Neverlabs)</strong>, a passionate 12th-grade vocational high school student in technology, web development, and computer networks. Ready to contribute to the modern tech world.",
             viewProjects: "View Projects",
             contactMe: "Contact Me",
-            aboutTitle: "Technology <span class='highlight'>Student</span> Profile",
+            aboutTitle: "Profile <span class='highlight'>Neverlabs</span>",
             aboutSubtitle: "A passionate vocational high school student with practical experience in various technology fields.",
             skillsTitle: "Technical <span class='highlight'>Expertise</span>",
             skillsSubtitle: "Skills I've mastered through school learning, online courses, and practical experience.",
@@ -650,49 +650,47 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const projectsData = {
         'tictactoe': {
-            title: 'Tic Tac Toe Web Game',
+            title: 'Tic Tac Toe Games',
             category: 'Game • Web',
-            description: 'Game Tic Tac Toe berbasis web dengan fitur multiplayer lokal, AI opponent dengan tiga tingkat kesulitan, dan sistem tracking score. Game ini dikembangkan dengan vanilla JavaScript tanpa framework eksternal.',
-            longDescription: 'Game Tic Tac Toe ini adalah implementasi modern dari game klasik dengan antarmuka yang menarik dan responsif. Proyek ini menampilkan kemampuan dalam DOM manipulation, algoritma AI sederhana, dan pengelolaan state tanpa library eksternal.',
+            description: 'Tic Tac Toe Games berbasis web dengan fitur multiplayer lokal, AI Q-learning, dan pelatihan AI secara bertahap.',
+            longDescription: 'Tic Tac Toe Games ini adalah implementasi modern dari game klasik dengan antarmuka yang menarik dan responsif. Proyek ini menampilkan kemampuan dalam DOM manipulation, algoritma AI sederhana, dan pengelolaan state tanpa library eksternal.',
             features: [
-                'Multiplayer lokal untuk 2 pemain',
-                'AI opponent dengan 3 tingkat kesulitan (Mudah, Sedang, Sulit)',
+                'Multiplayer lokal untuk 2 pemain (player dan komputer)',
+                'AI Learning (Q-learning) berlatih dari hasil data permainan',
                 'Sistem tracking score dengan LocalStorage',
                 'Animasi smooth untuk gerakan dan kemenangan',
                 'Design responsif yang bekerja di semua device',
-                'Efek suara untuk interaksi pengguna',
-                'Mode gelap/terang otomatis'
+                'Mode gelap untuk keterampilan yg elegan'
             ],
             technologies: ['HTML5', 'CSS3', 'JavaScript', 'LocalStorage'],
-            github: 'https://github.com/neveerlabs/tictactoe',
-            demo: 'https://neveerlabs.github.io/tictactoe',
+            github: 'https://github.com/neveerlabs/Tic-Tac-Toe',
+            demo: 'https://neveerlabs.github.io/Tic-Tac-Toe/',
             image: 'images/tictactoe.jpg',
-            date: 'Januari 2024'
+            date: 'Januari 2026'
         },
         'telegram-bot': {
-            title: 'Telegram Utility Bot',
+            title: 'VioraID',
             category: 'Bot • Automasi',
-            description: 'Bot Telegram dengan berbagai fitur utility seperti pengingat, konversi mata uang, informasi cuaca, dan automasi tugas. Dibangun dengan Python dan Telegram Bot API.',
-            longDescription: 'Bot Telegram ini adalah proyek automasi yang membantu pengguna dalam berbagai tugas sehari-hari. Bot dapat diintegrasikan dengan berbagai API eksternal untuk menyediakan informasi real-time dan melakukan automasi.',
+            description: 'Bot Komunitas Telegram dengan berbagai fitur utility seperti pengingat, konversi, handle grup, dan automasi lainnya.',
+            longDescription: 'Bot Komunitas Telegram ini adalah proyek automasi yang membantu admin dan pengguna dalam berbagai tugas sehari-hari. Bot dapat diintegrasikan dengan berbagai API eksternal untuk menyediakan informasi real-time dan melakukan automasi.',
             features: [
                 'Sistem pengingat dengan notifikasi terjadwal',
-                'Konversi mata uang real-time',
-                'Informasi cuaca berdasarkan lokasi',
-                'Penerjemah teks multi-bahasa',
+                'Integrasi respon Ai',
+                'Informasi harga saham',
+                'mencegah adanya bot lain didalam grup',
                 'Pencarian Wikipedia dan informasi umum',
                 'Automasi pesan grup/channel',
                 'Database SQLite untuk penyimpanan data'
             ],
-            technologies: ['Python', 'Telegram Bot API', 'SQLite', 'Requests', 'APScheduler'],
-            github: 'https://github.com/neveerlabs/telegram-bot',
-            demo: 'https://t.me/neverlabs_bot',
+            technologies: ['Python3.13+', 'Telegram API', 'SQLite', 'PIL', 'Pyrogram', 'google-gemini', 'Requests', 'APScheduler'],
             image: 'images/telegram-bot.jpg',
-            date: 'Maret 2024'
+            demo: null,
+            date: 'Februari 2025'
         },
         'github-setup': {
-            title: 'GitHub Setup Terminal Tool',
+            title: 'Tocket',
             category: 'Tool • Automasi',
-            description: 'Tool Command Line Interface (CLI) untuk setup otomatis repository GitHub dengan konfigurasi standar dan best practices. Tool ini menghemat waktu dalam inisialisasi proyek baru.',
+            description: 'Tool CLI untuk setup otomatis repository GitHub dengan konfigurasi standar dan best practices.',
             longDescription: 'Tool CLI ini dibuat untuk mengotomatisasi proses setup repository GitHub yang seringkali repetitive. Dengan tool ini, developer dapat dengan cepat menginisialisasi proyek baru dengan struktur folder standar, license, README, dan konfigurasi Git.',
             features: [
                 'Setup otomatis repository GitHub baru',
@@ -703,40 +701,40 @@ document.addEventListener('DOMContentLoaded', function() {
                 'Manajemen secret dan environment variables',
                 'Integrasi dengan GitHub API'
             ],
-            technologies: ['Python', 'Bash', 'GitHub API', 'Click CLI', 'YAML'],
-            github: 'https://github.com/neveerlabs/github-setup-tool',
+            technologies: ['Python3.13+', 'Rich', 'Requests', 'OS', 'Bash', 'Git', 'GitHub API', 'CryptoGraphy', 'YAML'],
+            github: 'https://github.com/neveerlabs/Tocket',
             demo: null,
-            image: 'images/github-tool.jpg',
-            date: 'Februari 2024'
+            image: 'images/tocket.png',
+            date: 'Desember 2025'
         },
         'ponpes-community': {
             title: 'Web Komunitas Pondok Pesantren',
             category: 'Web • Komunitas',
-            description: 'Website komunitas untuk pondok pesantren dengan fitur artikel, jadwal kegiatan, galeri foto, dan forum diskusi. Dibangun dengan PHP dan MySQL untuk backend.',
-            longDescription: 'Website ini dikembangkan untuk membantu komunitas pondok pesantren dalam berkomunikasi dan berbagi informasi. Fitur utamanya termasuk sistem manajemen konten untuk artikel, kalender kegiatan, galeri multimedia, dan forum diskusi yang aman.',
+            description: 'Website komunitas untuk pondok pesantren dengan fitur artikel, jadwal, galeri, dan forum diskusi.',
+            longDescription: 'Website ini dikembangkan untuk membantu komunitas pondok pesantren dalam berkomunikasi dan berbagi informasi kepada orang tua santri. Fitur utamanya termasuk sistem manajemen konten untuk artikel, absensi kegiatan, galeri multimedia, dan forum diskusi yang aman.',
             features: [
                 'Sistem manajemen konten (CMS) untuk artikel',
-                'Kalender kegiatan dengan notifikasi',
+                'Absensi kegiatan ngaji harian',
                 'Galeri foto dan video dengan kategori',
                 'Forum diskusi dengan moderasi',
                 'Sistem user authentication dan authorization',
                 'Dashboard admin dengan statistik',
                 'Design responsif dan mobile-friendly'
             ],
-            technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Bootstrap'],
-            github: 'https://github.com/neveerlabs/ponpes-community',
+            technologies: ['HTML', 'CSS', 'JavaScript', 'Express.js', 'MariaDB', 'Bootstrap'],
+            github: 'https://github.com/neveerlabs/web',
             demo: null,
             image: 'images/ponpes-web.jpg',
-            date: 'Desember 2023'
+            date: 'Desember 2026 - Sekarang'
         },
         'portfolio-v1': {
-            title: 'Portfolio Website v1',
+            title: 'Neverlabs Portfolio',
             category: 'Web • Portfolio',
-            description: 'Versi pertama website portfolio dengan design responsive dan animasi CSS dasar. Website ini menjadi fondasi untuk pengembangan portofolio yang lebih kompleks.',
+            description: 'Versi pertama website portofolio Neverlabs dengan design responsive dan animasi CSS dasar. Website ini menjadi fondasi untuk pengembangan portofolio yang lebih kompleks.',
             longDescription: 'Ini adalah versi pertama dari website portfolio saya, yang menampilkan kemampuan dasar dalam pengembangan web frontend. Website ini memiliki desain yang bersih, responsif, dan interaktif dengan animasi CSS murni.',
             features: [
                 'Design responsif dengan mobile-first approach',
-                'Animasi CSS murni tanpa JavaScript',
+                'Animasi CSS murni dengan JavaScript',
                 'Smooth scrolling navigation',
                 'Dark/light mode toggle',
                 'Form kontak dengan validasi',
@@ -744,30 +742,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 'Optimasi performa dan SEO dasar'
             ],
             technologies: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
-            github: 'https://github.com/neveerlabs/portfolio-v1',
-            demo: 'https://neveerlabs.github.io/portfolio-v1',
+            github: 'https://github.com/neveerlabs/Portfolio',
+            demo: 'https://neveerlabs.github.io/Portfolio/',
             image: 'images/portfolio-v1.jpg',
-            date: 'November 2023'
+            date: 'Januari 2026'
         },
         'network-monitor': {
-            title: 'Network Monitor Tool',
+            title: 'Xcrack-ng',
             category: 'Tool • Jaringan',
-            description: 'Tool monitoring jaringan sederhana untuk melihat status koneksi, ping, dan bandwidth usage. Tool ini membantu dalam troubleshooting jaringan lokal.',
-            longDescription: 'Network Monitor Tool ini dikembangkan untuk membantu memantau kesehatan jaringan komputer. Tool ini dapat mendeteksi device yang terhubung, mengukur latency, memonitor bandwidth, dan memberikan alert ketika terjadi masalah jaringan.',
+            description: 'Tool eksploitasi jaringan, monitoring client, brute force device, dan serangan malware, rainsomware, trojan.',
+            longDescription: 'Tool Xcrack-ng ini dikembangkan untuk membuat serangan lewat jaringan LAN (WIFI) palsu. Tool ini dapat mendeteksi device yang terhubung, mengambil data perangkat, mengirim serangan ke device yg terhubung, dan memberikan alert ketika terjadi masalah jaringan atau serangan balik.',
             features: [
                 'Scanning network untuk device yang terhubung',
                 'Monitoring ping dan latency real-time',
-                'Pengukuran bandwidth usage',
+                'Penggabungan device client (korban)',
                 'Logging network activity',
                 'Alert system untuk downtime',
                 'Web dashboard untuk monitoring',
                 'API untuk integrasi dengan sistem lain'
             ],
-            technologies: ['Python', 'Flask', 'JavaScript', 'Socket', 'Ping3', 'Chart.js'],
-            github: 'https://github.com/neveerlabs/network-monitor',
+            technologies: ['Python3.13+', 'Flask', 'HTML', 'CSS', 'JavaScript', 'Bootsrap', 'OS', 'SQLite', 'Socket', 'Ping3', 'Chart.js'],
+            github: null,
             demo: null,
             image: 'images/network-monitor.jpg',
-            date: 'Januari 2024'
+            date: 'Mei 2025'
         }
     };
     
