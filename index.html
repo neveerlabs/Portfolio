@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neverlabs | Portofolio M. Syalman Al Farizi</title>
-    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <title>Neverlabs | My Portfolio</title>
+    <link rel="icon" href="./images/meta-logo.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,14 +33,14 @@
             <div class="preloader-progress">
                 <div class="preloader-progress-bar"></div>
             </div>
-            <div class="preloader-subtitle">Pelajar SMK | Developer & Teknisi</div>
+            <div class="preloader-subtitle">Hardware | Software | Network</div>
         </div>
     </div>
 
     <nav class="navbar">
         <div class="nav-container">
             <a href="#home" class="nav-logo">
-                <div class="logo-icon">NL</div>
+                <img src="images/meta-logo.png" alt="M. Syalman Al Farizi" class="logo-icon" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80'">
                 <span class="logo-text">Neverlabs</span>
             </a>
             
@@ -133,7 +133,7 @@
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-badge">
-                        <span class="badge-text">Pelajar SMK - Teknik Komputer</span>
+                        <span class="badge-text">Lulusan SMK - Teknik Komputer & Jaringan</span>
                         <div class="badge-dot"></div>
                     </div>
                     
@@ -146,7 +146,7 @@
                     </h1>
                     
                     <p class="hero-description">
-                        Saya <strong>M. Syalman Al Farizi (Neverlabs)</strong>, pelajar SMK kelas 12 yang bersemangat dalam teknologi, 
+                        Saya <strong>M. Syalman Al Farizi (Neverlabs)</strong>, lulusan SMK Bumi Riyadhutholibin yang bersemangat dalam teknologi, 
                         pengembangan web, dan jaringan komputer. Siap berkontribusi di dunia teknologi modern.
                     </p>
                     
@@ -163,22 +163,22 @@
                     
                     <div class="hero-stats">
                         <div class="stat-item">
-                            <div class="stat-number" data-count="8">0</div>
+                            <div class="stat-number" data-count="6">0</div>
                             <div class="stat-label">Proyek</div>
                         </div>
                         <div class="stat-divider"></div>
                         <div class="stat-item">
-                            <div class="stat-number" data-count="2">0</div>
+                            <div class="stat-number" data-count="17">0</div>
                             <div class="stat-label">Tahun</div>
                         </div>
                         <div class="stat-divider"></div>
                         <div class="stat-item">
-                            <div class="stat-number" data-count="15">0</div>
+                            <div class="stat-number" data-count="1">0</div>
                             <div class="stat-label">Klien</div>
                         </div>
                         <div class="stat-divider"></div>
                         <div class="stat-item">
-                            <div class="stat-number" data-count="5">0</div>
+                            <div class="stat-number" data-count="7">0</div>
                             <div class="stat-label">Sertifikat</div>
                         </div>
                     </div>
@@ -202,13 +202,13 @@
         <span class="code-keyword">self</span>.nama = <span class="code-string">"M. Syalman Al Farizi"</span>
         <span class="code-keyword">self</span>.panggilan = <span class="code-string">"Salman"</span>
         <span class="code-keyword">self</span>.brand = <span class="code-string">"Neverlabs"</span>
-        <span class="code-keyword">self</span>.pendidikan = <span class="code-string">"SMK Kelas 12"</span>
-        <span class="code-keyword">self</span>.jurusan = <span class="code-string">"Teknik Komputer Jaringan"</span>
+        <span class="code-keyword">self</span>.pendidikan_akhir = <span class="code-string">"SMK (Sekolah Menengah Kejuruan)"</span>
+        <span class="code-keyword">self</span>.jurusan = <span class="code-string">"Teknik Komputer & Jaringan"</span>
         <span class="code-keyword">self</span>.lokasi = <span class="code-string">"Depok, Indonesia"</span>
         
         <span class="code-keyword">self</span>.keahlian = {
             <span class="code-string">"hardware"</span>: [<span class="code-string">"Service Komputer"</span>, <span class="code-string">"Instalasi OS"</span>],
-            <span class="code-string">"jaringan"</span>: [<span class="code-string">"Setup WiFi"</span>, <span class="code-string">"Kabel LAN"</span>],
+            <span class="code-string">"jaringan"</span>: [<span class="code-string">"Setup WiFi"</span>, <span class="code-string">"Konfigurasi Kabel LAN"</span>],
             <span class="code-string">"pemrograman"</span>: [<span class="code-string">"Python"</span>, <span class="code-string">"JavaScript"</span>],
             <span class="code-string">"web_dev"</span>: [<span class="code-string">"React"</span>, <span class="code-string">"Vue.js"</span>],
             <span class="code-string">"database"</span>: [<span class="code-string">"MySQL"</span>, <span class="code-string">"MongoDB"</span>],
@@ -222,7 +222,6 @@
         <span class="code-keyword">self</span>.keahlian[<span class="code-string">"pemrograman"</span>].append(teknologi)
         <span class="code-keyword">return</span> <span class="code-string">f"Memperdalam {teknologi}"</span>
 
-<span class="code-comment"># Membuat instance</span>
 saya = Neverlabs()
 <span class="code-keyword">print</span>(saya.nama)
 <span class="code-keyword">print</span>(<span class="code-string">"Siap berkontribusi di dunia teknologi!"</span>)
@@ -238,7 +237,7 @@ saya = Neverlabs()
                             <div class="image-badge">
                                 <div class="badge-content">
                                     <i class="fas fa-code"></i>
-                                    <span>Tersedia untuk proyek</span>
+                                    <span>Neverlabs</span>
                                 </div>
                             </div>
                         </div>
@@ -256,15 +255,15 @@ saya = Neverlabs()
             <div class="container">
                 <div class="section-header">
                     <div class="section-badge">Tentang Saya</div>
-                    <h2 class="section-title">Profil <span class="highlight">Pelajar</span> Teknologi</h2>
-                    <p class="section-subtitle">Pelajar SMK yang passionate di bidang teknologi dengan pengalaman praktis di berbagai bidang.</p>
+                    <h2 class="section-title">Profil <span class="highlight">Saya</span></h2>
+                    <p class="section-subtitle">Lulusan mahasiswa SMK yang passionate di bidang teknologi dengan pengalaman praktis di berbagai bidang.</p>
                 </div>
                 
                 <div class="about-content">
                     <div class="about-text">
                         <div class="about-intro">
-                            <h3>Halo, saya M. Syalman Al Farizi (Salman)</h3>
-                            <p>Saya adalah pelajar SMK kelas 12 dengan jurusan Teknik Komputer dan Jaringan. Passion saya di dunia teknologi dimulai sejak SMP dan terus berkembang melalui pembelajaran mandiri dan pengalaman praktik.</p>
+                            <h3>Halo, nama saya M. Syalman Al Farizi (Salman)</h3>
+                            <p>Saya adalah lulusan SMK dengan jurusan Teknik Komputer dan Jaringan. Passion saya di dunia teknologi dimulai sejak SMP dan terus berkembang melalui pembelajaran mandiri dan pengalaman praktik.</p>
                             <p>Saya memiliki minat yang kuat dalam pengembangan web, jaringan komputer, dan kecerdasan buatan. Saya percaya bahwa teknologi adalah alat untuk menciptakan solusi yang berdampak positif bagi masyarakat.</p>
                         </div>
                         
@@ -293,9 +292,9 @@ saya = Neverlabs()
                             <div class="detail-item">
                                 <div class="detail-label">
                                     <i class="fas fa-graduation-cap"></i>
-                                    <span>Pendidikan</span>
+                                    <span>Pendidikan Akhir</span>
                                 </div>
-                                <div class="detail-value">SMK Kelas 12</div>
+                                <div class="detail-value">SMK Bumi Riyadhutholibin</div>
                             </div>
                         </div>
                         
@@ -333,7 +332,7 @@ saya = Neverlabs()
                                     <div class="timeline-dot"></div>
                                 </div>
                                 <div class="timeline-item">
-                                    <div class="timeline-date">2023</div>
+                                    <div class="timeline-date">2024</div>
                                     <div class="timeline-content">
                                         <h4>PKL - Toko Boss Comp</h4>
                                         <p>Teknisi Service Komputer</p>
@@ -405,9 +404,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="90"></div>
+                                                <div class="progress-fill" data-width="100"></div>
                                             </div>
-                                            <div class="progress-value">90%</div>
+                                            <div class="progress-value">100%</div>
                                         </div>
                                         <div class="skill-description">Instalasi Windows 10/11, driver, optimasi sistem, troubleshooting.</div>
                                     </div>
@@ -421,9 +420,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="75"></div>
+                                                <div class="progress-fill" data-width="100"></div>
                                             </div>
-                                            <div class="progress-value">75%</div>
+                                            <div class="progress-value">100%</div>
                                         </div>
                                         <div class="skill-description">Instalasi distribusi Linux (Ubuntu, Mint), konfigurasi sistem, terminal.</div>
                                     </div>
@@ -437,9 +436,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="80"></div>
+                                                <div class="progress-fill" data-width="95"></div>
                                             </div>
-                                            <div class="progress-value">80%</div>
+                                            <div class="progress-value">95%</div>
                                         </div>
                                         <div class="skill-description">Konfigurasi router, access point, troubleshooting jaringan nirkabel.</div>
                                     </div>
@@ -453,9 +452,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="85"></div>
+                                                <div class="progress-fill" data-width="100"></div>
                                             </div>
-                                            <div class="progress-value">85%</div>
+                                            <div class="progress-value">100%</div>
                                         </div>
                                         <div class="skill-description">Pembuatan kabel straight/cross, crimping, testing jaringan kabel.</div>
                                     </div>
@@ -553,9 +552,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="70"></div>
+                                                <div class="progress-fill" data-width="85"></div>
                                             </div>
-                                            <div class="progress-value">70%</div>
+                                            <div class="progress-value">85%</div>
                                         </div>
                                         <div class="skill-description">Database design, queries, joins, normalization, basic administration.</div>
                                     </div>
@@ -569,9 +568,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="75"></div>
+                                                <div class="progress-fill" data-width="80"></div>
                                             </div>
-                                            <div class="progress-value">75%</div>
+                                            <div class="progress-value">80</div>
                                         </div>
                                         <div class="skill-description">Embedded database, mobile apps, local storage solutions.</div>
                                     </div>
@@ -621,9 +620,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="68"></div>
+                                                <div class="progress-fill" data-width="75"></div>
                                             </div>
-                                            <div class="progress-value">68%</div>
+                                            <div class="progress-value">75%</div>
                                         </div>
                                         <div class="skill-description">Server-side JavaScript, npm, basic REST APIs.</div>
                                     </div>
@@ -637,9 +636,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="65"></div>
+                                                <div class="progress-fill" data-width="85"></div>
                                             </div>
-                                            <div class="progress-value">65%</div>
+                                            <div class="progress-value">85%</div>
                                         </div>
                                         <div class="skill-description">Web framework untuk Node.js, routing, middleware.</div>
                                     </div>
@@ -669,9 +668,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="60"></div>
+                                                <div class="progress-fill" data-width="85"></div>
                                             </div>
-                                            <div class="progress-value">60%</div>
+                                            <div class="progress-value">85%</div>
                                         </div>
                                         <div class="skill-description">NoSQL database, CRUD operations, basic aggregation.</div>
                                     </div>
@@ -705,9 +704,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="88"></div>
+                                                <div class="progress-fill" data-width="90"></div>
                                             </div>
-                                            <div class="progress-value">88%</div>
+                                            <div class="progress-value">90%</div>
                                         </div>
                                         <div class="skill-description">Editor utama, extensions, debugging, integrated terminal.</div>
                                     </div>
@@ -721,9 +720,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="72"></div>
+                                                <div class="progress-fill" data-width="98"></div>
                                             </div>
-                                            <div class="progress-value">72%</div>
+                                            <div class="progress-value">98%</div>
                                         </div>
                                         <div class="skill-description">Bash commands, file management, process control, scripting.</div>
                                     </div>
@@ -737,9 +736,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="65"></div>
+                                                <div class="progress-fill" data-width="89"></div>
                                             </div>
-                                            <div class="progress-value">65%</div>
+                                            <div class="progress-value">89%</div>
                                         </div>
                                         <div class="skill-description">Basic server setup, Apache/Nginx, SSH, file transfers.</div>
                                     </div>
@@ -753,9 +752,9 @@ saya = Neverlabs()
                                         </div>
                                         <div class="skill-progress">
                                             <div class="progress-bar">
-                                                <div class="progress-fill" data-width="55"></div>
+                                                <div class="progress-fill" data-width="75"></div>
                                             </div>
-                                            <div class="progress-value">55%</div>
+                                            <div class="progress-value">75%</div>
                                         </div>
                                         <div class="skill-description">TensorFlow basics, simple models, data preprocessing.</div>
                                     </div>
@@ -808,8 +807,8 @@ saya = Neverlabs()
                         </div>
                         <div class="project-content">
                             <div class="project-category">Web • Game</div>
-                            <h3 class="project-title">Tic Tac Toe Web Game</h3>
-                            <p class="project-description">Game Tic Tac Toe berbasis web dengan fitur multiplayer lokal, AI opponent, dan score tracking.</p>
+                            <h3 class="project-title">Tic Tac Toe Games</h3>
+                            <p class="project-description">Tic Tac Toe Games berbasis web dengan fitur multiplayer lokal, AI Q-learning, dan pelatihan AI secara bertahap.</p>
                             <div class="project-tech">
                                 <span class="tech-tag">HTML</span>
                                 <span class="tech-tag">CSS</span>
@@ -821,7 +820,7 @@ saya = Neverlabs()
                                     <i class="fas fa-eye"></i>
                                     <span>Detail Proyek</span>
                                 </button>
-                                <a href="https://github.com/neveerlabs/tictactoe" class="project-link" target="_blank">
+                                <a href="https://github.com/neveerlabs/Tic-Tac-Toe" class="project-link" target="_blank">
                                     <i class="fab fa-github"></i>
                                     <span>Kode</span>
                                 </a>
@@ -833,26 +832,29 @@ saya = Neverlabs()
                         <div class="project-image">
                             <div class="image-overlay"></div>
                             <img src="images/telegram-bot.jpg" alt="Telegram Bot" onerror="this.src='https://images.unsplash.com/photo-1611605698323-b1e99cfd37ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                            <div class="project-badge">Bot</div>
                         </div>
                         <div class="project-content">
                             <div class="project-category">Bot • Automasi</div>
-                            <h3 class="project-title">Telegram Utility Bot</h3>
-                            <p class="project-description">Bot Telegram dengan berbagai fitur utility seperti pengingat, konversi, informasi cuaca, dan automasi.</p>
+                            <h3 class="project-title">VioraID</h3>
+                            <p class="project-description">Bot Komunitas Telegram dengan berbagai fitur utility seperti pengingat, konversi, handle grup, dan automasi lainnya.</p>
                             <div class="project-tech">
-                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Python3,13+</span>
                                 <span class="tech-tag">Telegram API</span>
                                 <span class="tech-tag">SQLite</span>
                                 <span class="tech-tag">Requests</span>
+                                <span class="tech-tag">PIL</span>
+                                <span class="tech-tag">Pyrogram</span>
                             </div>
                             <div class="project-actions">
                                 <button class="project-link view-details" data-project="telegram-bot">
                                     <i class="fas fa-eye"></i>
                                     <span>Detail Proyek</span>
                                 </button>
-                                <a href="https://github.com/neveerlabs/telegram-bot" class="project-link" target="_blank">
+                                <!-- <a href="https://github.com/neveerlabs/VioraID" class="project-link" target="_blank">
                                     <i class="fab fa-github"></i>
                                     <span>Kode</span>
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -860,25 +862,29 @@ saya = Neverlabs()
                     <div class="project-card" data-category="tool" data-project="github-setup">
                         <div class="project-image">
                             <div class="image-overlay"></div>
-                            <img src="images/github-tool.jpg" alt="GitHub Setup Tool" onerror="this.src='https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                            <img src="images/tocket.png" alt="GitHub Setup Tool" onerror="this.src='https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
                             <div class="project-badge">Tool</div>
                         </div>
                         <div class="project-content">
                             <div class="project-category">Tool • Automasi</div>
-                            <h3 class="project-title">GitHub Setup Terminal Tool</h3>
+                            <h3 class="project-title">Tocket</h3>
                             <p class="project-description">Tool CLI untuk setup otomatis repository GitHub dengan konfigurasi standar dan best practices.</p>
                             <div class="project-tech">
                                 <span class="tech-tag">Bash</span>
                                 <span class="tech-tag">Git</span>
                                 <span class="tech-tag">GitHub API</span>
-                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Python3.13+</span>
+                                <span class="tech-tag">Rich</span>
+                                <span class="tech-tag">Requests</span>
+                                <span class="tech-tag">CryptoGrahy</span>
+                                <span class="tech-tag">YAML</span>
                             </div>
                             <div class="project-actions">
                                 <button class="project-link view-details" data-project="github-setup">
                                     <i class="fas fa-eye"></i>
                                     <span>Detail Proyek</span>
                                 </button>
-                                <a href="https://github.com/neveerlabs/github-setup-tool" class="project-link" target="_blank">
+                                <a href="https://github.com/neveerlabs/Tocket" class="project-link" target="_blank">
                                     <i class="fab fa-github"></i>
                                     <span>Kode</span>
                                 </a>
@@ -900,15 +906,16 @@ saya = Neverlabs()
                                 <span class="tech-tag">HTML</span>
                                 <span class="tech-tag">CSS</span>
                                 <span class="tech-tag">JavaScript</span>
-                                <span class="tech-tag">PHP</span>
-                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">MariaDB</span>
                             </div>
                             <div class="project-actions">
                                 <button class="project-link view-details" data-project="ponpes-community">
                                     <i class="fas fa-eye"></i>
                                     <span>Detail Proyek</span>
                                 </button>
-                                <a href="https://github.com/neveerlabs/ponpes-community" class="project-link" target="_blank">
+                                <a href="https://github.com/neveerlabs/web" class="project-link" target="_blank">
                                     <i class="fab fa-github"></i>
                                     <span>Kode</span>
                                 </a>
@@ -920,11 +927,12 @@ saya = Neverlabs()
                         <div class="project-image">
                             <div class="image-overlay"></div>
                             <img src="images/portfolio-v1.jpg" alt="Portfolio v1" onerror="this.src='https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                            <div class="project-badge">Web</div>
                         </div>
                         <div class="project-content">
                             <div class="project-category">Web • Portfolio</div>
-                            <h3 class="project-title">Portfolio Website v1</h3>
-                            <p class="project-description">Versi pertama website portfolio dengan design responsive dan animasi CSS dasar.</p>
+                            <h3 class="project-title">Neverlabs Portfolio</h3>
+                            <p class="project-description">Versi pertama website portofolio Neverlabs dengan design responsive dan animasi CSS dasar. Website ini menjadi fondasi untuk pengembangan portofolio yang lebih kompleks.</p>
                             <div class="project-tech">
                                 <span class="tech-tag">HTML</span>
                                 <span class="tech-tag">CSS</span>
@@ -936,7 +944,7 @@ saya = Neverlabs()
                                     <i class="fas fa-eye"></i>
                                     <span>Detail Proyek</span>
                                 </button>
-                                <a href="https://github.com/neveerlabs/portfolio-v1" class="project-link" target="_blank">
+                                <a href="https://github.com/neveerlabs/Portfolio" class="project-link" target="_blank">
                                     <i class="fab fa-github"></i>
                                     <span>Kode</span>
                                 </a>
@@ -948,27 +956,34 @@ saya = Neverlabs()
                         <div class="project-image">
                             <div class="image-overlay"></div>
                             <img src="images/network-monitor.jpg" alt="Network Monitor" onerror="this.src='https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
-                            <div class="project-badge">Jaringan</div>
+                            <div class="project-badge">Malware</div>
                         </div>
                         <div class="project-content">
                             <div class="project-category">Tool • Jaringan</div>
-                            <h3 class="project-title">Network Monitor Tool</h3>
-                            <p class="project-description">Tool monitoring jaringan sederhana untuk melihat status koneksi, ping, dan bandwidth usage.</p>
+                            <h3 class="project-title">Xcrack-ng</h3>
+                            <p class="project-description">Tool eksploitasi jaringan, monitoring client, brute force device, dan serangan malware, rainsomware, trojan.</p>
                             <div class="project-tech">
-                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Python3.13+</span>
                                 <span class="tech-tag">Flask</span>
                                 <span class="tech-tag">JavaScript</span>
                                 <span class="tech-tag">Networking</span>
+                                <span class="tech-tag">Socket</span>
+                                <span class="tech-tag">OS</span>
+                                <span class="tech-tag">Bash</span>
+                                <span class="tech-tag">Requests</span>
+                                <span class="tech-tag">Geolocation</span>
+                                <span class="tech-tag">Rich</span>
+                                <span class="tech-tag">ASCII</span>
                             </div>
                             <div class="project-actions">
                                 <button class="project-link view-details" data-project="network-monitor">
                                     <i class="fas fa-eye"></i>
                                     <span>Detail Proyek</span>
                                 </button>
-                                <a href="https://github.com/neveerlabs/network-monitor" class="project-link" target="_blank">
+                                <!-- <a href="https://github.com/neveerlabs/network-monitor" class="project-link" target="_blank">
                                     <i class="fab fa-github"></i>
                                     <span>Kode</span>
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -1041,7 +1056,7 @@ saya = Neverlabs()
                                     </div>
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="card-title">Pasukan 17 Banjar 1 Saff 5</h4>
+                                    <h4 class="card-title">Pasukan 17A Banjar 1 Saff 5</h4>
                                     <p class="card-description">Bagian dari pasukan inti upacara bendera dengan formasi khusus.</p>
                                     <ul class="card-list">
                                         <li>Latihan intensif selama 2 bulan sebelum upacara</li>
@@ -1054,7 +1069,7 @@ saya = Neverlabs()
                         </div>
                         
                         <div class="timeline-item">
-                            <div class="timeline-date">2023</div>
+                            <div class="timeline-date">2024</div>
                             <div class="timeline-card">
                                 <div class="card-header">
                                     <div class="card-company">
@@ -1063,7 +1078,7 @@ saya = Neverlabs()
                                         </div>
                                         <div class="company-info">
                                             <h3 class="company-name">PKL - Toko Boss Comp</h3>
-                                            <div class="company-location">Depok, Jawa Barat</div>
+                                            <div class="company-location">Sukabumi, Jawa Barat</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1082,7 +1097,7 @@ saya = Neverlabs()
                         </div>
                         
                         <div class="timeline-item">
-                            <div class="timeline-date">2022 - Sekarang</div>
+                            <div class="timeline-date">2023 - Sekarang</div>
                             <div class="timeline-card">
                                 <div class="card-header">
                                     <div class="card-company">
@@ -1091,7 +1106,7 @@ saya = Neverlabs()
                                         </div>
                                         <div class="company-info">
                                             <h3 class="company-name">Belajar Mandiri & Proyek</h3>
-                                            <div class="company-location">Online & Depok</div>
+                                            <div class="company-location">Online</div>
                                         </div>
                                     </div>
                                     <div class="card-badge">Berjalan</div>
@@ -1216,14 +1231,15 @@ saya = Neverlabs()
             <div class="footer-content">
                 <div class="footer-main">
                     <div class="footer-logo">
-                        <div class="logo-icon">NL</div>
+                        <!-- <div class="logo-icon">NL</div> -->
+                        <img src="images/meta-logo.png" alt="logo" class="logo-icon" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80'">
                         <div class="logo-text">
                             <h3>Neverlabs</h3>
                             <p>M. Syalman Al Farizi</p>
                         </div>
                     </div>
                     
-                    <p class="footer-description">Pelajar SMK yang passionate di bidang teknologi, pengembangan web, dan jaringan komputer.</p>
+                    <p class="footer-description">Mahasiswa yang passionate di bidang teknologi, pengembangan web, dan jaringan komputer.</p>
                     
                     <div class="footer-social">
                         <a href="https://github.com/neveerlabs" class="social-link" target="_blank">
@@ -1273,6 +1289,7 @@ saya = Neverlabs()
                             <li><a href="https://wa.me/628561765372">WhatsApp</a></li>
                             <li><a href="https://github.com/neveerlabs">GitHub</a></li>
                             <li><a href="https://instagram.com/neveerlabs">Instagram</a></li>
+                            <li><a href="https://t.me/neverlabs">Telegram</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1280,7 +1297,7 @@ saya = Neverlabs()
             
             <div class="footer-bottom">
                 <div class="copyright">
-                    &copy; 2024 Neverlabs (M. Syalman Al Farizi). Hak cipta dilindungi.
+                    &copy; 2026 Neverlabs. Hak cipta dilindungi oleh undang undang.
                 </div>
                 <div class="footer-cta">
                     <a href="#contact" class="btn btn-secondary btn-small">
